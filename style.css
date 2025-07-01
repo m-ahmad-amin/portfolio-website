@@ -1,6 +1,7 @@
 html {
   font-size: clamp(12px, 1.2vw, 16px);
   scroll-behavior: smooth;
+  background-color: #0D1117;
 }
 
 * {
@@ -11,8 +12,13 @@ html {
 }
 
 .home {
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100vh;
+  width: 100%;
   background-color: #0D1117;
+  z-index: 1;
 }
 
 .header {
@@ -114,8 +120,13 @@ html {
   font-size: 1.1rem;
 }
 
+.fa-brands {
+  transition: all 0.3s ease-in-out;
+}
+
 .fa-brands:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .home-text {
@@ -130,4 +141,81 @@ html {
   .home-content {
     flex-direction: column;
   }
+}
+
+/* ------------------------------------------------Skills------------------------------------------------- */
+.skills {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0D1117;
+  width: 85%;
+  position: relative;
+  z-index: 2;
+  padding: 1.5rem 2rem 4rem 2rem;
+  margin-top: 110vh;
+  margin-bottom: 2rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5),
+              0 0 40px rgba(255, 255, 255, 0.3),
+              0 0 60px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.skills h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+li {
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding: 8px;
+  margin-top: 1rem;
+  list-style: none;
+  height: 5rem;
+  width: 5rem;
+  background-color: #222;
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+#html-icon {
+  fill: #E44D26;
+}
+
+#css-icon {
+  fill: #264DE4;
+}
+
+#js-icon {
+  fill: #F7DF1E;
+}
+
+#java-icon {
+  color: #EA2D2E;
+}
+
+#git-icon {
+  fill: #F05032;
+}
+
+#github-icon {
+  fill: #ffffff;
+}
+
+#nodejs-icon {
+  fill: #339933;
 }
