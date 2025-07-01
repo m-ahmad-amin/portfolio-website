@@ -91,3 +91,43 @@ html {
     font-size: 1rem;
   }
 }
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 3rem;
+  /* gap: 0.5rem; */
+  font-size: 2rem;
+}
+
+.home-text h2 {
+  font-size: 1rem;
+}
+
+.home-text h1 {
+  font-size: 3rem;
+}
+
+.home-text h3 {
+  font-size: 1.1rem;
+}
+
+.fa-brands:hover {
+  cursor: pointer;
+}
+
+.home-text {
+  padding-left: 1rem;
+}
+
+.home-animation {
+  height: 25rem;
+}
+
+@media (max-width: 450px) {
+  .home-content {
+    flex-direction: column;
+  }
+}

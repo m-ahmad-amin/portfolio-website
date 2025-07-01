@@ -6,10 +6,12 @@
     <title>M Ahmad Amin | Personal Web Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <!-- -------------------------------------------------------------------------------------------------- -->
     <!-- Home section -->
-    <section class="home">
+    <section class="home" id="home">
 
 
 
@@ -17,10 +19,10 @@
         <div class="header">
             <!-- Navbar -->
             <div class="navbar">
-                <a href=".home" class="nav-options home-btn">Home</a>
-                <a href=".skills" class="nav-options">Skills</a>
-                <a href=".projects" class="nav-options">Projects</a>
-                <a href=".contact" class="nav-options">Contact</a>
+                <a href="#home" class="nav-options home-btn">Home</a>
+                <a href="#skills" class="nav-options">Skills</a>
+                <a href="#projects" class="nav-options">Projects</a>
+                <a href="#contact" class="nav-options">Contact</a>
             </div>
             <!-- Portfolio Heading -->
             <div class="port-heading">
@@ -29,21 +31,30 @@
         </div>
 
 
+        <!-- Home Content -->
+         <div class="home-content">
 
-        <!-- Home text -->
-        <div class="home-text">
-            <h2>Hello, My name is</h2>
-            <h1>M Ahmad Amin</h1>
-            <h3>I’m a web developer who builds clean and responsive websites.</h3>
-        </div>
+            <!-- Home text -->
+            <div class="home-text">
+                <h2>Hello, My name is</h2>
+                <h1>M. Ahmad Amin</h1>
+                <h3>I’m a web developer who builds clean and responsive websites.</h3>
+                <div class="home-contact">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+            </div>
 
+            <!-- Home animation -->
+            <div class="home-animation">
+                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+                <dotlottie-player src="https://lottie.host/611749dc-1762-4add-b8c1-591ff1929720/5UmR1ryGiH.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
+            </div>
 
+         </div>
 
-        <!-- Home animation -->
-        <div class="home-animation">
-            <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-            <dotlottie-player src="https://lottie.host/34f76648-2e01-4c13-9b85-fc579315c15f/5Qkf0R6MZD.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
-        </div>
     </section>
     <script src="script.js"></script>
 </body>
