@@ -148,7 +148,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   background-color: #0D1117;
-  width: 85%;
+  width: 90%;
   position: relative;
   z-index: 2;
   padding: 1.5rem 2rem 4rem 2rem;
@@ -234,4 +234,18 @@ li:hover {
 
 #mongoose-icon {
   fill: #F04D35;
+}
+
+#icon-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon-heading {
+  padding-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.77);
+  font-weight: 100;
+  font-size: medium;
 }
