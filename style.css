@@ -219,3 +219,19 @@ li:hover {
 #nodejs-icon {
   fill: #339933;
 }
+
+#express-icon {
+  fill: #fff;
+}
+
+#sql-icon {
+  fill: #4479A1;
+}
+
+#mongodb-icon {
+  fill: #47A248;
+}
+
+#mongoose-icon {
+  fill: #F04D35;
+}
